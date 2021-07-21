@@ -3,6 +3,8 @@
   --second-color: #757575; /* contact list, text*/
   --active-color: #2196f3; /* first part logo, hover and focus, button bg */
   --third-color: #ffffff; /* background */
+  --hero-footer-bgcolor: #2f303a;
+  --bgcolor-second: #f5f4fa; /* bg color cection(our team) and portfolio buttons*/
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -37,7 +39,7 @@ body {
 }
 .dark {
   /* second part logo */
-  color: #212121;
+  color: var(--accent-color);
 }
 .header .link:hover,
 .header .link:focus {
@@ -67,7 +69,7 @@ body {
 /* --------------------main-------------------- */
 /* ----------hero---------- */
 .hero {
-  background: #2f303a;
+  background: var(--hero-footer-bgcolor);
 }
 .hero-title {
   font-style: normal;
@@ -98,9 +100,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 /* ------section:specials------ */
-.specials {
+/* .specials {
   background: #e5e5e5;
-}
+} */
 .spec-title {
   font-style: normal;
   font-weight: 700;
@@ -129,9 +131,9 @@ body {
   color: var(--second-color);
 }
 /* ----section:our job---- */
-.our-job {
+/* .our-job {
   background: #e5e5e5;
-}
+} */
 .our-job .job-title {
   font-style: normal;
   font-weight: 700;
@@ -143,7 +145,7 @@ body {
 }
 /* ----------our team---------- */
 .our-team {
-  background: #f5f4fa;
+  background: var(--bgcolor-second);
 }
 .team-title {
   font-style: normal;
@@ -173,7 +175,7 @@ body {
 }
 /* --------------------footer-------------------- */
 .footer {
-  background: #2f303a;
+  background: var(--hero-footer-bgcolor);
 }
 .white {
   color: var(--third-color);
@@ -184,7 +186,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--third-color);
 }
 
 .address-link {
@@ -201,9 +203,9 @@ body {
 }
 
 /* --------------------Portfolio-------------------- */
-.portfolio {
+/* .portfolio {
   background: #e5e5e5;
-}
+} */
 .portfolio .button {
   font-style: normal;
   font-weight: 500;
@@ -212,7 +214,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   font-family: "Roboto", sans-serif;
-  background: #f5f4fa;
+  background: var(--bgcolor-second);
   color: var(--accent-color);
 }
 .portfolio .button:hover,
